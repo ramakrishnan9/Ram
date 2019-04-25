@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
- {
+{
   int i,n;
   printf("Enter the String:");
-  for(i=0;i<=2;i++)
+  scanf("%d",&n);
+   for(i=1;i<=n;i++)
    {
-    printf("Hello World");
+    printf("\n Hello World");
     }
    return 0;
  }  
