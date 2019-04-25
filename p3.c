@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
  {
-  int i;
+  int i,n;
   printf("Enter the String:");
-  for(i=1;i<=2;i++)
+  for(i=0;i<=2;i++)
    {
     printf("Hello World");
     }
