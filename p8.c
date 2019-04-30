@@ -10,6 +10,10 @@ int main()
   {
    printf("The prime number is:%d",n);
   }
+  else
+  {
+   printf("This is not prime:%d",n);
+  }
  }
  return 0;
 }
