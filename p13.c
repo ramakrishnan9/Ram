@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
  {
-  int n,m;
+  int n,m,i;
   scanf("%d%d",&n,&m);
-  k=0;
-  while(n%m==0)
+for(i=n;i<=m;i++)
+ {
+  if(i%2==0)
   {   
-    printf("The Even number is:%d",n);
-    k++;
+    printf("The Even number is:%d",i);
     }
     return 0;
     }
