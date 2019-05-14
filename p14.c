@@ -14,5 +14,6 @@ int main()
        {
        printf("The prime number is:%d",i);
        }
+ }
        return 0;
       } 
