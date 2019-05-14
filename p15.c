@@ -5,9 +5,8 @@ int main()
   scanf("%d",&n);
   while(n>=0)
    {
-   n=n%10;
-   re=n*n*n;
-   sum=sum+re;
+   re=n%10;
+   sum=sum+n*n*n;
    n=n/10;
    }
  if(sum==n)
