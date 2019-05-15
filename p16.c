@@ -1,21 +1,17 @@
-#include<stdio.h>
+include<stdio.h>
 int main()
  {
- int n,check,rem,sum=0;
- scanf("%d",&check);
- while(check!=0)
+ int n=153,check,rem,sum=0;
+ check=n;
+  while(check!=0)
  {
   rem=check%10;
   sum=sum+(rem*rem*rem);
   check=check/10;
  }
- if(sum==check)
+ if(sum==n)
  {
-  printf("Yes");
- }
- else
- {
-  printf("No");
+  printf("yes",sum);
  }
  return 0;
 }
