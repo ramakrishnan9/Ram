@@ -6,7 +6,7 @@ int main()
   for(i=1;i<=n;i++)
   {
    fact=fact*i;
-   printf("The Factorila number is:%d",fact);
-   }
-   return 0;
+      }
+ printf("The Factorila number is:%d",fact);  
+ return 0;
    }
