@@ -11,7 +11,7 @@ int main()
   sum=sum+(rem*rem*rem);
   check=i/10;
   }
-  printf("yes",sum);
  }
+  printf("yes",sum);
     return 0;
  }
