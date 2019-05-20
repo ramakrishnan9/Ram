@@ -12,6 +12,6 @@ int main()
   check=i/10;
   }
  }
-  printf("yes",sum);
+  printf("yes",i);
     return 0;
  }
