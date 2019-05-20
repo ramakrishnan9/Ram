@@ -9,7 +9,7 @@ int main()
   sum=sum+(rem*rem*rem);
   check=i/10;
  }
- if(sum==n)
+ if(sum!=n)
  {
   printf("yes",sum);
  }
