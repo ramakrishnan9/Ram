@@ -1,7 +1,7 @@
 include<stdio.h>
 int main()
  {
- int n,check,rem,sum=0;
+ int n,check,rem,sum=0,i;
  scanf("%d",&n);
  for(i=n;i<=n+1;i++)
  {
