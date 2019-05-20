@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
  {
- int n,check,rem,sum=0,i;
+ int n,check,rem,sum=0,i,m;
  scanf("%d%d",&n,&m);
  for(i=n;i<=m;i++)
  {
