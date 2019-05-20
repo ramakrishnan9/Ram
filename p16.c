@@ -8,8 +8,14 @@ int main()
   rem=n%10;
   sum=sum+(rem*rem*rem);
   check=n/10;
+  b=sum;
  }
-printf("The amstrong number is:%d",n);
+ for(i=n;i<=m;i++)
+ {
+  if(b<=m)
+  {
+printf("The amstrong number is:%d",b);
 }
+ }
 return 0;
 }
