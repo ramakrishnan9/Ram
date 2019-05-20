@@ -1,13 +1,13 @@
 include<stdio.h>
 int main()
  {
- int n=153,check,rem,sum=0;
- check=n;
-  while(check!=0)
+ int n,check,rem,sum=0;
+ scanf("%d",&n);
+ for(i=n;i<=n+1;i++)
  {
-  rem=check%10;
+  rem=i%10;
   sum=sum+(rem*rem*rem);
-  check=check/10;
+  check=i/10;
  }
  if(sum==n)
  {
