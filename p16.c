@@ -1,17 +1,15 @@
 #include<stdio.h>
 int main()
  {
- int n,check,rem,sum=0,i,m;
+ int arms=153,check,rem,sum=0;
  scanf("%d%d",&n,&m);
- i=n;
  while(n!=m)
  {
-    rem=i%10;
+  rem=n%10;
   sum=sum+(rem*rem*rem);
-  check=i/10;
-  } 
-  printf(sum);
- i++;
+  check=n/10;
  }
-    return 0;
- }
+printf("The amstrong number is:%d",arms);
+}
+return 0;
+}
