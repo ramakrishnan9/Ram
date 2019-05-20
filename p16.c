@@ -13,5 +13,9 @@ int main()
  {
   printf("yes",sum);
  }
+ else
+ {
+  printf("No");
+ }
  return 0;
 }
